@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 4</title>
+    <title>Comment Page</title>
 </head>
 <body>
-    <h1>HTML Form</h1>
+    <h1>I am Internal Text</h1>
 
-    <form action="/submit" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
+    <!-- Link to a local file -->
+    <p><a href="local_file.txt" target="_blank" title="Link to Local File">Local File Link</a></p>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
+    <!-- Link to a high-level directory -->
+    <p><a href="../" title="Link to High Level Directory">High Level Directory Link</a></p>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea><br>
+    <!-- Link to an internet website -->
+    <p><a href="https://www.example.com" target="_blank" title="Link to Internet Website">Internet Website Link</a></p>
 
-        <input type="submit" value="Submit">
-    </form>
+    <!-- Link with email address -->
+    <p><a href="mailto:example@example.com" title="Send Email">Email Link</a></p>
 </body>
 </html>
